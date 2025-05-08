@@ -1,0 +1,2 @@
+# False positive, subsystem is checked at the beginning of the file
+android-udev-rules: udev-rule-missing-subsystem

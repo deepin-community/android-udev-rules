@@ -1,0 +1,2 @@
+# https://salsa.debian.org/lintian/lintian/-/merge_requests/470#note_464198
+android-udev-rules source: build-depends-on-obsolete-package Build-Depends: pkg-config => pkgconf

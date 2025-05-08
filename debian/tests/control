@@ -1,0 +1,7 @@
+Tests:
+ check-syntax,
+Depends:
+ pkg-config,
+ systemd-dev,
+ udev,
+ @,

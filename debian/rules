@@ -1,4 +1,6 @@
 #!/usr/bin/make -f
 
+export udev_dir = $(shell pkg-config --variable=udev_dir udev | sed s,^/,,)
+
 %:
 	dh $@
