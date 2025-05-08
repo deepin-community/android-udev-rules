@@ -1,5 +1,36 @@
-template-repository (1.0-1) unstable; urgency=medium
+android-udev-rules (0~20250314+ds-5) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * Fix google-android-platform-tools-installer versions (Closes: #1104042)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jochen Sprickerhof <jspricke@debian.org>  Wed, 30 Apr 2025 10:38:50 +0200
+
+android-udev-rules (0~20250314+ds-4) unstable; urgency=medium
+
+  * d/control: add Conflicts, Breaks, and Replaces on
+    google-android-platform-tools-installer (<< 1743526702-1~)
+    (DEP17 P1 M7).
+    Thanks to Helmut for the report! (Closes: #1102321)
+
+ -- Andrea Pappacoda <tachi@debian.org>  Wed, 09 Apr 2025 12:47:56 +0200
+
+android-udev-rules (0~20250314+ds-3) unstable; urgency=medium
+
+  [ Roger Shimizu ]
+  * d/control: Move Vcs-* links to android-tools-team salsa group
+  * Mitigate loss of 51-android.rules due to /usr-move via Conflicts
+    (Closes: #1102321) (DEP17 P1 M7)
+
+ -- Andrea Pappacoda <tachi@debian.org>  Tue, 08 Apr 2025 09:07:52 +0200
+
+android-udev-rules (0~20250314+ds-2) unstable; urgency=medium
+
+  * d/control: add Breaks+Replaces on android-sdk-platform-tools-common
+
+ -- Andrea Pappacoda <tachi@debian.org>  Tue, 01 Apr 2025 10:48:36 +0200
+
+android-udev-rules (0~20250314+ds-1) unstable; urgency=low
+
+  * Initial release. (Closes: #1101136)
+
+ -- Andrea Pappacoda <tachi@debian.org>  Mon, 24 Mar 2025 12:34:24 +0100

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+set -eu
+
+udev_dir=$(pkg-config --variable=udev_dir udev)
+
+exec udevadm verify "$udev_dir/rules.d/51-android.rules"
